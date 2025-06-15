@@ -1,5 +1,5 @@
 <?php
-$conexion = new mysqli("localhost", "root", "", "horas_estadia");
+$conexion = new mysqli("localhost", "root", "root", "horas_estadia");
 if ($conexion->connect_error) {
     echo "<p class='info-line' style='color:#c0392b;'>Error de conexión: " . $conexion->connect_error . "</p>";
     return;
