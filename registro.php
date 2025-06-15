@@ -1,5 +1,5 @@
 <?php
-$conexion = new mysqli("localhost", "root", "", "horas_estadia");
+$conexion = new mysqli("localhost", "root", "root", "horas_estadia");
 if ($conexion->connect_error) die("Error de conexión");
 $accion = $_POST['accion'];
 $nombre = $_POST['nombre'];
